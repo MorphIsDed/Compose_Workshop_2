@@ -3,6 +3,7 @@ package com.example.compose_workshop_2.database
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
+@Dao
 interface NoteDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(note: Note)
