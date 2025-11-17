@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Compose_Workshop_2</string>
+    <string name="add_note">Add Note</string>
 </resources>
